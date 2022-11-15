@@ -1,0 +1,9 @@
+---
+build/test/mocks/mock_i2c.c:
+- TEST
+src/sht30.c:
+- TEST
+src/ringbuffer.c:
+- TEST
+src/device_command.c:
+- TEST

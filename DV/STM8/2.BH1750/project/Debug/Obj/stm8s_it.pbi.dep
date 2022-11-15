@@ -1,0 +1,5 @@
+stm8s_it.pbi: \
+  H:\2.project\2022\thang\ 8\1.ThietBi_GS\1.Sensor\2.BH1750\library\stm8s_it.c \
+  H:\2.project\2022\thang\ 8\1.ThietBi_GS\1.Sensor\2.BH1750\library/stm8s_it.h \
+  H:\2.project\2022\thang\ 8\1.ThietBi_GS\1.Sensor\2.BH1750\library/stm8s.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\intrinsics.h

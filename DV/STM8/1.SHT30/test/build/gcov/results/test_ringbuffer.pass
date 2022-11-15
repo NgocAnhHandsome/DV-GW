@@ -1,0 +1,47 @@
+---
+:source:
+  :path: test
+  :file: test_ringbuffer.c
+:successes:
+- :test: test_function_ringbuffer_init_successful
+  :line: 14
+  :message: ''
+  :unity_test_time: 0
+- :test: test_function_ringbuffer_init_error
+  :line: 30
+  :message: ''
+  :unity_test_time: 0
+- :test: test_function_ringbuffer_push_pop
+  :line: 43
+  :message: ''
+  :unity_test_time: 0
+- :test: test_function_ringbuffer_push_pop_circular
+  :line: 76
+  :message: ''
+  :unity_test_time: 0
+- :test: test_function_ringbuffer_error
+  :line: 110
+  :message: ''
+  :unity_test_time: 0
+- :test: test_function_ringbuffer_get_arr
+  :line: 151
+  :message: ''
+  :unity_test_time: 0
+:failures: []
+:ignores: []
+:counts:
+  :total: 6
+  :passed: 6
+  :failed: 0
+  :ignored: 0
+:stdout:
+- 'pass_1: $COMM,1,2,3,4,5#'
+- 'pass_2: $COMM,1.23,2,-3.456,4,5#'
+- 'pass_3: $COMM,1,2,3,4,5#'
+- 'pass_4: $COMM,1,2,3,4,5#'
+- 'pass_5: $COMM,1,2,3,4,9COMM,0,0,0,0,0#'
+- 'pass_6_1: $COMM,1#'
+- 'pass_6_2: $COMM,2,2,0,2#'
+- 'pass_6_3: $COMM,3,3,33#'
+- 'pass_6_4: $COMM,4,3,44#'
+:time: 0.006701700000121491

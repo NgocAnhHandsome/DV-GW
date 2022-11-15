@@ -1,0 +1,44 @@
+---
+:source:
+  :path: test
+  :file: test_device_command.c
+:successes:
+- :test: test_function_command_asktype
+  :line: 16
+  :message: ''
+  :unity_test_time: 0
+- :test: test_function_command_answertype
+  :line: 43
+  :message: ''
+  :unity_test_time: 0
+- :test: test_function_command_askdata
+  :line: 77
+  :message: ''
+  :unity_test_time: 0
+- :test: 'test_function_command_answerdata '
+  :line: 103
+  :message: ''
+  :unity_test_time: 0
+- :test: test_function_command_detect
+  :line: 136
+  :message: ''
+  :unity_test_time: 0
+:failures: []
+:ignores: []
+:counts:
+  :total: 5
+  :passed: 5
+  :failed: 0
+  :ignored: 0
+:stdout:
+- "$COMM,1,7,2#"
+- "$COMM,2,7,0,29#"
+- "$COMM,3,7,0#"
+- 'float: 0.567017'
+- 'data: 1234.567017'
+- "$COMM,4,7,0,1234.567,41#"
+- 'float: 0.567017'
+- 'data: -1234.567017'
+- "$COMM,4,7,0,-1234.567,4#"
+- hello
+:time: 0.009519799998088274

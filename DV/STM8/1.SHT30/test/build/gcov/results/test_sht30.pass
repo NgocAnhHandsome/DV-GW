@@ -1,0 +1,31 @@
+---
+:source:
+  :path: test
+  :file: test_sht30.c
+:successes:
+- :test: test_function_sht30_SetHeater
+  :line: 20
+  :message: ''
+  :unity_test_time: 0
+- :test: test_function_sht30_isHeaterEnabled_On
+  :line: 29
+  :message: ''
+  :unity_test_time: 0
+- :test: test_function_sht30_isHeaterEnabled_Off
+  :line: 43
+  :message: ''
+  :unity_test_time: 0
+- :test: test_function_sht32_ReadTempHum
+  :line: 57
+  :message: ''
+  :unity_test_time: 0
+:failures: []
+:ignores: []
+:counts:
+  :total: 4
+  :passed: 4
+  :failed: 0
+  :ignored: 0
+:stdout:
+- 'Temp: 28.100000 - Hum: 98.470001 '
+:time: 0.0050159999991592485

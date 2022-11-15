@@ -1,0 +1,8 @@
+main.pbi: \
+  C:\Users\hnaco\Desktop\Surveillance_equipment_Clover-work_on\1.Sensor\3.Current\user\timer_lib.h \
+  C:\Users\hnaco\Desktop\Surveillance_equipment_Clover-work_on\1.Sensor\3.Current\user\adc_lib.h \
+  C:\Users\hnaco\Desktop\Surveillance_equipment_Clover-work_on\1.Sensor\3.Current\user\DELAY.H \
+  C:\Users\hnaco\Desktop\Surveillance_equipment_Clover-work_on\1.Sensor\3.Current\user\uart.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\intrinsics.h \
+  C:\Users\hnaco\Desktop\Surveillance_equipment_Clover-work_on\1.Sensor\3.Current\project\..\library\stm8s.h \
+  C:\Users\hnaco\Desktop\Surveillance_equipment_Clover-work_on\1.Sensor\3.Current\user\main.c
