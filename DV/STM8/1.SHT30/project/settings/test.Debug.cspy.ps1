@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "E:\Embedded system\GW-DV\DV\STM8\1.SHT30\project\settings\test.Debug.general.xcl" --backend -f "E:\Embedded system\GW-DV\DV\STM8\1.SHT30\project\settings\test.Debug.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "E:\Embedded system\GW-DV\DV-GW\DV\STM8\1.SHT30\project\settings\test.Debug.general.xcl" --backend -f "E:\Embedded system\GW-DV\DV-GW\DV\STM8\1.SHT30\project\settings\test.Debug.driver.xcl" 
 }
 else
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "E:\Embedded system\GW-DV\DV\STM8\1.SHT30\project\settings\test.Debug.general.xcl" --debug_file=$debugfile --backend -f "E:\Embedded system\GW-DV\DV\STM8\1.SHT30\project\settings\test.Debug.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "E:\Embedded system\GW-DV\DV-GW\DV\STM8\1.SHT30\project\settings\test.Debug.general.xcl" --debug_file=$debugfile --backend -f "E:\Embedded system\GW-DV\DV-GW\DV\STM8\1.SHT30\project\settings\test.Debug.driver.xcl" 
 }

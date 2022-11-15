@@ -107,6 +107,7 @@ void UART2_SendString(char *data)
 		UART2_SendChar(*data);
 		data++;
 	}
+	UART2_SendChar('\0');
 	GPIO_ResetBits(GPIOA, GPIO_Pin_4);
 }
 

@@ -746,54 +746,54 @@ Image Symbol Table
     i.UART1_SendChar                         0x08000730   Section        0  uart.o(i.UART1_SendChar)
     i.UART2_SendChar                         0x0800074c   Section        0  uart.o(i.UART2_SendChar)
     i.UART2_SendString                       0x0800076c   Section        0  uart.o(i.UART2_SendString)
-    i.USART1_IRQHandler                      0x08000798   Section        0  uart.o(i.USART1_IRQHandler)
-    i.USART2_IRQHandler                      0x080007ec   Section        0  uart.o(i.USART2_IRQHandler)
-    i.USART3_IRQHandler                      0x0800083c   Section        0  uart.o(i.USART3_IRQHandler)
-    i.USART_ClearITPendingBit                0x08000890   Section        0  stm32f10x_usart.o(i.USART_ClearITPendingBit)
-    i.USART_ReceiveData                      0x080008ae   Section        0  stm32f10x_usart.o(i.USART_ReceiveData)
-    i.__NVIC_EnableIRQ                       0x080008b8   Section        0  uart.o(i.__NVIC_EnableIRQ)
-    __NVIC_EnableIRQ                         0x080008b9   Thumb Code    26  uart.o(i.__NVIC_EnableIRQ)
-    i.comm_create_command                    0x080008d4   Section        0  device_command.o(i.comm_create_command)
-    i.conver_floatTostr                      0x08000a84   Section        0  device_command.o(i.conver_floatTostr)
-    conver_floatTostr                        0x08000a85   Thumb Code   186  device_command.o(i.conver_floatTostr)
-    i.conver_unsigned_intTostr               0x08000b54   Section        0  device_command.o(i.conver_unsigned_intTostr)
-    conver_unsigned_intTostr                 0x08000b55   Thumb Code    98  device_command.o(i.conver_unsigned_intTostr)
-    i.delay                                  0x08000bbc   Section        0  main_1.o(i.delay)
-    i.main                                   0x08000bdc   Section        0  main_1.o(i.main)
-    i.ringbuffer_full                        0x08000c38   Section        0  ringbuffer.o(i.ringbuffer_full)
-    ringbuffer_full                          0x08000c39   Thumb Code    30  ringbuffer.o(i.ringbuffer_full)
-    i.ringbuffer_increase_head               0x08000c56   Section        0  ringbuffer.o(i.ringbuffer_increase_head)
-    ringbuffer_increase_head                 0x08000c57   Thumb Code    18  ringbuffer.o(i.ringbuffer_increase_head)
-    i.ringbuffer_increase_tail               0x08000c68   Section        0  ringbuffer.o(i.ringbuffer_increase_tail)
-    ringbuffer_increase_tail                 0x08000c69   Thumb Code    18  ringbuffer.o(i.ringbuffer_increase_tail)
-    i.ringbuffer_init                        0x08000c7a   Section        0  ringbuffer.o(i.ringbuffer_init)
-    i.ringbuffer_push                        0x08000c92   Section        0  ringbuffer.o(i.ringbuffer_push)
-    i.string_cat                             0x08000cb8   Section        0  device_command.o(i.string_cat)
-    string_cat                               0x08000cb9   Thumb Code    30  device_command.o(i.string_cat)
-    i.string_copy                            0x08000cd6   Section        0  device_command.o(i.string_copy)
-    string_copy                              0x08000cd7   Thumb Code    42  device_command.o(i.string_copy)
-    i.string_crc                             0x08000d00   Section        0  device_command.o(i.string_crc)
-    string_crc                               0x08000d01   Thumb Code    52  device_command.o(i.string_crc)
-    i.string_length                          0x08000d38   Section        0  device_command.o(i.string_length)
-    string_length                            0x08000d39   Thumb Code    18  device_command.o(i.string_length)
-    x$fpl$d2f                                0x08000d4c   Section       98  d2f.o(x$fpl$d2f)
-    x$fpl$dcmpinf                            0x08000dae   Section       24  dcmpi.o(x$fpl$dcmpinf)
-    x$fpl$dleqf                              0x08000dc8   Section      120  dleqf.o(x$fpl$dleqf)
-    x$fpl$dmul                               0x08000e40   Section      340  dmul.o(x$fpl$dmul)
-    x$fpl$dnaninf                            0x08000f94   Section      156  dnaninf.o(x$fpl$dnaninf)
-    x$fpl$dretinf                            0x08001030   Section       12  dretinf.o(x$fpl$dretinf)
-    x$fpl$f2d                                0x0800103c   Section       86  f2d.o(x$fpl$f2d)
-    x$fpl$fadd                               0x08001094   Section      196  faddsub_clz.o(x$fpl$fadd)
-    _fadd1                                   0x080010a3   Thumb Code     0  faddsub_clz.o(x$fpl$fadd)
-    x$fpl$ffix                               0x08001158   Section       54  ffix.o(x$fpl$ffix)
-    x$fpl$ffixu                              0x08001190   Section       62  ffixu.o(x$fpl$ffixu)
-    x$fpl$ffltu                              0x080011d0   Section       38  fflt_clz.o(x$fpl$ffltu)
-    x$fpl$fnaninf                            0x080011f6   Section      140  fnaninf.o(x$fpl$fnaninf)
-    x$fpl$fretinf                            0x08001282   Section       10  fretinf.o(x$fpl$fretinf)
-    x$fpl$frsb                               0x0800128c   Section       20  faddsub_clz.o(x$fpl$frsb)
-    x$fpl$fsub                               0x080012a0   Section      234  faddsub_clz.o(x$fpl$fsub)
-    _fsub1                                   0x080012af   Thumb Code     0  faddsub_clz.o(x$fpl$fsub)
-    x$fpl$usenofp                            0x0800138a   Section        0  usenofp.o(x$fpl$usenofp)
+    i.USART1_IRQHandler                      0x0800079c   Section        0  uart.o(i.USART1_IRQHandler)
+    i.USART2_IRQHandler                      0x080007f0   Section        0  uart.o(i.USART2_IRQHandler)
+    i.USART3_IRQHandler                      0x08000840   Section        0  uart.o(i.USART3_IRQHandler)
+    i.USART_ClearITPendingBit                0x08000894   Section        0  stm32f10x_usart.o(i.USART_ClearITPendingBit)
+    i.USART_ReceiveData                      0x080008b2   Section        0  stm32f10x_usart.o(i.USART_ReceiveData)
+    i.__NVIC_EnableIRQ                       0x080008bc   Section        0  uart.o(i.__NVIC_EnableIRQ)
+    __NVIC_EnableIRQ                         0x080008bd   Thumb Code    26  uart.o(i.__NVIC_EnableIRQ)
+    i.comm_create_command                    0x080008d8   Section        0  device_command.o(i.comm_create_command)
+    i.conver_floatTostr                      0x08000a88   Section        0  device_command.o(i.conver_floatTostr)
+    conver_floatTostr                        0x08000a89   Thumb Code   186  device_command.o(i.conver_floatTostr)
+    i.conver_unsigned_intTostr               0x08000b58   Section        0  device_command.o(i.conver_unsigned_intTostr)
+    conver_unsigned_intTostr                 0x08000b59   Thumb Code    98  device_command.o(i.conver_unsigned_intTostr)
+    i.delay                                  0x08000bc0   Section        0  main_1.o(i.delay)
+    i.main                                   0x08000be0   Section        0  main_1.o(i.main)
+    i.ringbuffer_full                        0x08000c34   Section        0  ringbuffer.o(i.ringbuffer_full)
+    ringbuffer_full                          0x08000c35   Thumb Code    30  ringbuffer.o(i.ringbuffer_full)
+    i.ringbuffer_increase_head               0x08000c52   Section        0  ringbuffer.o(i.ringbuffer_increase_head)
+    ringbuffer_increase_head                 0x08000c53   Thumb Code    18  ringbuffer.o(i.ringbuffer_increase_head)
+    i.ringbuffer_increase_tail               0x08000c64   Section        0  ringbuffer.o(i.ringbuffer_increase_tail)
+    ringbuffer_increase_tail                 0x08000c65   Thumb Code    18  ringbuffer.o(i.ringbuffer_increase_tail)
+    i.ringbuffer_init                        0x08000c76   Section        0  ringbuffer.o(i.ringbuffer_init)
+    i.ringbuffer_push                        0x08000c8e   Section        0  ringbuffer.o(i.ringbuffer_push)
+    i.string_cat                             0x08000cb4   Section        0  device_command.o(i.string_cat)
+    string_cat                               0x08000cb5   Thumb Code    30  device_command.o(i.string_cat)
+    i.string_copy                            0x08000cd2   Section        0  device_command.o(i.string_copy)
+    string_copy                              0x08000cd3   Thumb Code    42  device_command.o(i.string_copy)
+    i.string_crc                             0x08000cfc   Section        0  device_command.o(i.string_crc)
+    string_crc                               0x08000cfd   Thumb Code    52  device_command.o(i.string_crc)
+    i.string_length                          0x08000d34   Section        0  device_command.o(i.string_length)
+    string_length                            0x08000d35   Thumb Code    18  device_command.o(i.string_length)
+    x$fpl$d2f                                0x08000d48   Section       98  d2f.o(x$fpl$d2f)
+    x$fpl$dcmpinf                            0x08000daa   Section       24  dcmpi.o(x$fpl$dcmpinf)
+    x$fpl$dleqf                              0x08000dc4   Section      120  dleqf.o(x$fpl$dleqf)
+    x$fpl$dmul                               0x08000e3c   Section      340  dmul.o(x$fpl$dmul)
+    x$fpl$dnaninf                            0x08000f90   Section      156  dnaninf.o(x$fpl$dnaninf)
+    x$fpl$dretinf                            0x0800102c   Section       12  dretinf.o(x$fpl$dretinf)
+    x$fpl$f2d                                0x08001038   Section       86  f2d.o(x$fpl$f2d)
+    x$fpl$fadd                               0x08001090   Section      196  faddsub_clz.o(x$fpl$fadd)
+    _fadd1                                   0x0800109f   Thumb Code     0  faddsub_clz.o(x$fpl$fadd)
+    x$fpl$ffix                               0x08001154   Section       54  ffix.o(x$fpl$ffix)
+    x$fpl$ffixu                              0x0800118c   Section       62  ffixu.o(x$fpl$ffixu)
+    x$fpl$ffltu                              0x080011cc   Section       38  fflt_clz.o(x$fpl$ffltu)
+    x$fpl$fnaninf                            0x080011f2   Section      140  fnaninf.o(x$fpl$fnaninf)
+    x$fpl$fretinf                            0x0800127e   Section       10  fretinf.o(x$fpl$fretinf)
+    x$fpl$frsb                               0x08001288   Section       20  faddsub_clz.o(x$fpl$frsb)
+    x$fpl$fsub                               0x0800129c   Section      234  faddsub_clz.o(x$fpl$fsub)
+    _fsub1                                   0x080012ab   Thumb Code     0  faddsub_clz.o(x$fpl$fsub)
+    x$fpl$usenofp                            0x08001386   Section        0  usenofp.o(x$fpl$usenofp)
     .data                                    0x20000000   Section       16  uart.o(.data)
     .data                                    0x20000010   Section       20  system_stm32f10x.o(.data)
     .bss                                     0x20000024   Section      280  main_1.o(.bss)
@@ -972,46 +972,46 @@ Image Symbol Table
     SystemInit                               0x080006d1   Thumb Code    78  system_stm32f10x.o(i.SystemInit)
     UART1_SendChar                           0x08000731   Thumb Code    24  uart.o(i.UART1_SendChar)
     UART2_SendChar                           0x0800074d   Thumb Code    26  uart.o(i.UART2_SendChar)
-    UART2_SendString                         0x0800076d   Thumb Code    38  uart.o(i.UART2_SendString)
-    USART1_IRQHandler                        0x08000799   Thumb Code    66  uart.o(i.USART1_IRQHandler)
-    USART2_IRQHandler                        0x080007ed   Thumb Code    64  uart.o(i.USART2_IRQHandler)
-    USART3_IRQHandler                        0x0800083d   Thumb Code    66  uart.o(i.USART3_IRQHandler)
-    USART_ClearITPendingBit                  0x08000891   Thumb Code    30  stm32f10x_usart.o(i.USART_ClearITPendingBit)
-    USART_ReceiveData                        0x080008af   Thumb Code    10  stm32f10x_usart.o(i.USART_ReceiveData)
-    comm_create_command                      0x080008d5   Thumb Code   420  device_command.o(i.comm_create_command)
-    delay                                    0x08000bbd   Thumb Code    30  main_1.o(i.delay)
-    main                                     0x08000bdd   Thumb Code    80  main_1.o(i.main)
-    ringbuffer_init                          0x08000c7b   Thumb Code    24  ringbuffer.o(i.ringbuffer_init)
-    ringbuffer_push                          0x08000c93   Thumb Code    38  ringbuffer.o(i.ringbuffer_push)
-    __aeabi_d2f                              0x08000d4d   Thumb Code     0  d2f.o(x$fpl$d2f)
-    _d2f                                     0x08000d4d   Thumb Code    98  d2f.o(x$fpl$d2f)
-    __fpl_dcmp_Inf                           0x08000daf   Thumb Code    24  dcmpi.o(x$fpl$dcmpinf)
-    __aeabi_cdcmple                          0x08000dc9   Thumb Code     0  dleqf.o(x$fpl$dleqf)
-    _dcmple                                  0x08000dc9   Thumb Code   120  dleqf.o(x$fpl$dleqf)
-    __fpl_dcmple_InfNaN                      0x08000e2b   Thumb Code     0  dleqf.o(x$fpl$dleqf)
-    __aeabi_dmul                             0x08000e41   Thumb Code     0  dmul.o(x$fpl$dmul)
-    _dmul                                    0x08000e41   Thumb Code   332  dmul.o(x$fpl$dmul)
-    __fpl_dnaninf                            0x08000f95   Thumb Code   156  dnaninf.o(x$fpl$dnaninf)
-    __fpl_dretinf                            0x08001031   Thumb Code    12  dretinf.o(x$fpl$dretinf)
-    __aeabi_f2d                              0x0800103d   Thumb Code     0  f2d.o(x$fpl$f2d)
-    _f2d                                     0x0800103d   Thumb Code    86  f2d.o(x$fpl$f2d)
-    __aeabi_fadd                             0x08001095   Thumb Code     0  faddsub_clz.o(x$fpl$fadd)
-    _fadd                                    0x08001095   Thumb Code   196  faddsub_clz.o(x$fpl$fadd)
-    __aeabi_f2iz                             0x08001159   Thumb Code     0  ffix.o(x$fpl$ffix)
-    _ffix                                    0x08001159   Thumb Code    54  ffix.o(x$fpl$ffix)
-    __aeabi_f2uiz                            0x08001191   Thumb Code     0  ffixu.o(x$fpl$ffixu)
-    _ffixu                                   0x08001191   Thumb Code    62  ffixu.o(x$fpl$ffixu)
-    __aeabi_ui2f                             0x080011d1   Thumb Code     0  fflt_clz.o(x$fpl$ffltu)
-    _ffltu                                   0x080011d1   Thumb Code    38  fflt_clz.o(x$fpl$ffltu)
-    __fpl_fnaninf                            0x080011f7   Thumb Code   140  fnaninf.o(x$fpl$fnaninf)
-    __fpl_fretinf                            0x08001283   Thumb Code    10  fretinf.o(x$fpl$fretinf)
-    __aeabi_frsub                            0x0800128d   Thumb Code     0  faddsub_clz.o(x$fpl$frsb)
-    _frsb                                    0x0800128d   Thumb Code    20  faddsub_clz.o(x$fpl$frsb)
-    __aeabi_fsub                             0x080012a1   Thumb Code     0  faddsub_clz.o(x$fpl$fsub)
-    _fsub                                    0x080012a1   Thumb Code   234  faddsub_clz.o(x$fpl$fsub)
-    __I$use$fp                               0x0800138a   Number         0  usenofp.o(x$fpl$usenofp)
-    Region$$Table$$Base                      0x0800138c   Number         0  anon$$obj.o(Region$$Table)
-    Region$$Table$$Limit                     0x080013ac   Number         0  anon$$obj.o(Region$$Table)
+    UART2_SendString                         0x0800076d   Thumb Code    42  uart.o(i.UART2_SendString)
+    USART1_IRQHandler                        0x0800079d   Thumb Code    66  uart.o(i.USART1_IRQHandler)
+    USART2_IRQHandler                        0x080007f1   Thumb Code    64  uart.o(i.USART2_IRQHandler)
+    USART3_IRQHandler                        0x08000841   Thumb Code    66  uart.o(i.USART3_IRQHandler)
+    USART_ClearITPendingBit                  0x08000895   Thumb Code    30  stm32f10x_usart.o(i.USART_ClearITPendingBit)
+    USART_ReceiveData                        0x080008b3   Thumb Code    10  stm32f10x_usart.o(i.USART_ReceiveData)
+    comm_create_command                      0x080008d9   Thumb Code   420  device_command.o(i.comm_create_command)
+    delay                                    0x08000bc1   Thumb Code    30  main_1.o(i.delay)
+    main                                     0x08000be1   Thumb Code    74  main_1.o(i.main)
+    ringbuffer_init                          0x08000c77   Thumb Code    24  ringbuffer.o(i.ringbuffer_init)
+    ringbuffer_push                          0x08000c8f   Thumb Code    38  ringbuffer.o(i.ringbuffer_push)
+    __aeabi_d2f                              0x08000d49   Thumb Code     0  d2f.o(x$fpl$d2f)
+    _d2f                                     0x08000d49   Thumb Code    98  d2f.o(x$fpl$d2f)
+    __fpl_dcmp_Inf                           0x08000dab   Thumb Code    24  dcmpi.o(x$fpl$dcmpinf)
+    __aeabi_cdcmple                          0x08000dc5   Thumb Code     0  dleqf.o(x$fpl$dleqf)
+    _dcmple                                  0x08000dc5   Thumb Code   120  dleqf.o(x$fpl$dleqf)
+    __fpl_dcmple_InfNaN                      0x08000e27   Thumb Code     0  dleqf.o(x$fpl$dleqf)
+    __aeabi_dmul                             0x08000e3d   Thumb Code     0  dmul.o(x$fpl$dmul)
+    _dmul                                    0x08000e3d   Thumb Code   332  dmul.o(x$fpl$dmul)
+    __fpl_dnaninf                            0x08000f91   Thumb Code   156  dnaninf.o(x$fpl$dnaninf)
+    __fpl_dretinf                            0x0800102d   Thumb Code    12  dretinf.o(x$fpl$dretinf)
+    __aeabi_f2d                              0x08001039   Thumb Code     0  f2d.o(x$fpl$f2d)
+    _f2d                                     0x08001039   Thumb Code    86  f2d.o(x$fpl$f2d)
+    __aeabi_fadd                             0x08001091   Thumb Code     0  faddsub_clz.o(x$fpl$fadd)
+    _fadd                                    0x08001091   Thumb Code   196  faddsub_clz.o(x$fpl$fadd)
+    __aeabi_f2iz                             0x08001155   Thumb Code     0  ffix.o(x$fpl$ffix)
+    _ffix                                    0x08001155   Thumb Code    54  ffix.o(x$fpl$ffix)
+    __aeabi_f2uiz                            0x0800118d   Thumb Code     0  ffixu.o(x$fpl$ffixu)
+    _ffixu                                   0x0800118d   Thumb Code    62  ffixu.o(x$fpl$ffixu)
+    __aeabi_ui2f                             0x080011cd   Thumb Code     0  fflt_clz.o(x$fpl$ffltu)
+    _ffltu                                   0x080011cd   Thumb Code    38  fflt_clz.o(x$fpl$ffltu)
+    __fpl_fnaninf                            0x080011f3   Thumb Code   140  fnaninf.o(x$fpl$fnaninf)
+    __fpl_fretinf                            0x0800127f   Thumb Code    10  fretinf.o(x$fpl$fretinf)
+    __aeabi_frsub                            0x08001289   Thumb Code     0  faddsub_clz.o(x$fpl$frsb)
+    _frsb                                    0x08001289   Thumb Code    20  faddsub_clz.o(x$fpl$frsb)
+    __aeabi_fsub                             0x0800129d   Thumb Code     0  faddsub_clz.o(x$fpl$fsub)
+    _fsub                                    0x0800129d   Thumb Code   234  faddsub_clz.o(x$fpl$fsub)
+    __I$use$fp                               0x08001386   Number         0  usenofp.o(x$fpl$usenofp)
+    Region$$Table$$Base                      0x08001388   Number         0  anon$$obj.o(Region$$Table)
+    Region$$Table$$Limit                     0x080013a8   Number         0  anon$$obj.o(Region$$Table)
     TimeOut                                  0x20000000   Data           4  uart.o(.data)
     Flag1_Receive                            0x20000004   Data           1  uart.o(.data)
     Count1_Data                              0x20000005   Data           1  uart.o(.data)
@@ -1041,9 +1041,9 @@ Memory Map of the image
 
   Image Entry point : 0x08000189
 
-  Load Region LR_1 (Base: 0x08000000, Size: 0x000013d0, Max: 0xffffffff, ABSOLUTE)
+  Load Region LR_1 (Base: 0x08000000, Size: 0x000013cc, Max: 0xffffffff, ABSOLUTE)
 
-    Execution Region ER_RO (Exec base: 0x08000000, Load base: 0x08000000, Size: 0x000013ac, Max: 0xffffffff, ABSOLUTE)
+    Execution Region ER_RO (Exec base: 0x08000000, Load base: 0x08000000, Size: 0x000013a8, Max: 0xffffffff, ABSOLUTE)
 
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
@@ -1121,63 +1121,63 @@ Memory Map of the image
     0x080006d0   0x080006d0   0x00000060   Code   RO         1571    i.SystemInit        system_stm32f10x.o
     0x08000730   0x08000730   0x0000001c   Code   RO          254    i.UART1_SendChar    uart.o
     0x0800074c   0x0800074c   0x00000020   Code   RO          257    i.UART2_SendChar    uart.o
-    0x0800076c   0x0800076c   0x0000002c   Code   RO          258    i.UART2_SendString  uart.o
-    0x08000798   0x08000798   0x00000054   Code   RO          261    i.USART1_IRQHandler  uart.o
-    0x080007ec   0x080007ec   0x00000050   Code   RO          262    i.USART2_IRQHandler  uart.o
-    0x0800083c   0x0800083c   0x00000054   Code   RO          263    i.USART3_IRQHandler  uart.o
-    0x08000890   0x08000890   0x0000001e   Code   RO         1370    i.USART_ClearITPendingBit  stm32f10x_usart.o
-    0x080008ae   0x080008ae   0x0000000a   Code   RO         1387    i.USART_ReceiveData  stm32f10x_usart.o
-    0x080008b8   0x080008b8   0x0000001a   Code   RO          264    i.__NVIC_EnableIRQ  uart.o
-    0x080008d2   0x080008d2   0x00000002   PAD
-    0x080008d4   0x080008d4   0x000001b0   Code   RO          171    i.comm_create_command  device_command.o
-    0x08000a84   0x08000a84   0x000000d0   Code   RO          173    i.conver_floatTostr  device_command.o
-    0x08000b54   0x08000b54   0x00000068   Code   RO          175    i.conver_unsigned_intTostr  device_command.o
-    0x08000bbc   0x08000bbc   0x0000001e   Code   RO            5    i.delay             main_1.o
-    0x08000bda   0x08000bda   0x00000002   PAD
-    0x08000bdc   0x08000bdc   0x0000005c   Code   RO            6    i.main              main_1.o
-    0x08000c38   0x08000c38   0x0000001e   Code   RO          109    i.ringbuffer_full   ringbuffer.o
-    0x08000c56   0x08000c56   0x00000012   Code   RO          113    i.ringbuffer_increase_head  ringbuffer.o
-    0x08000c68   0x08000c68   0x00000012   Code   RO          114    i.ringbuffer_increase_tail  ringbuffer.o
-    0x08000c7a   0x08000c7a   0x00000018   Code   RO          115    i.ringbuffer_init   ringbuffer.o
-    0x08000c92   0x08000c92   0x00000026   Code   RO          117    i.ringbuffer_push   ringbuffer.o
-    0x08000cb8   0x08000cb8   0x0000001e   Code   RO          177    i.string_cat        device_command.o
-    0x08000cd6   0x08000cd6   0x0000002a   Code   RO          179    i.string_copy       device_command.o
-    0x08000d00   0x08000d00   0x00000038   Code   RO          180    i.string_crc        device_command.o
-    0x08000d38   0x08000d38   0x00000012   Code   RO          181    i.string_length     device_command.o
-    0x08000d4a   0x08000d4a   0x00000002   PAD
-    0x08000d4c   0x08000d4c   0x00000062   Code   RO         1647    x$fpl$d2f           fz_ws.l(d2f.o)
-    0x08000dae   0x08000dae   0x00000018   Code   RO         1701    x$fpl$dcmpinf       fz_ws.l(dcmpi.o)
-    0x08000dc6   0x08000dc6   0x00000002   PAD
-    0x08000dc8   0x08000dc8   0x00000078   Code   RO         1661    x$fpl$dleqf         fz_ws.l(dleqf.o)
-    0x08000e40   0x08000e40   0x00000154   Code   RO         1663    x$fpl$dmul          fz_ws.l(dmul.o)
-    0x08000f94   0x08000f94   0x0000009c   Code   RO         1703    x$fpl$dnaninf       fz_ws.l(dnaninf.o)
-    0x08001030   0x08001030   0x0000000c   Code   RO         1705    x$fpl$dretinf       fz_ws.l(dretinf.o)
-    0x0800103c   0x0800103c   0x00000056   Code   RO         1665    x$fpl$f2d           fz_ws.l(f2d.o)
-    0x08001092   0x08001092   0x00000002   PAD
-    0x08001094   0x08001094   0x000000c4   Code   RO         1667    x$fpl$fadd          fz_ws.l(faddsub_clz.o)
-    0x08001158   0x08001158   0x00000036   Code   RO         1677    x$fpl$ffix          fz_ws.l(ffix.o)
-    0x0800118e   0x0800118e   0x00000002   PAD
-    0x08001190   0x08001190   0x0000003e   Code   RO         1681    x$fpl$ffixu         fz_ws.l(ffixu.o)
-    0x080011ce   0x080011ce   0x00000002   PAD
-    0x080011d0   0x080011d0   0x00000026   Code   RO         1685    x$fpl$ffltu         fz_ws.l(fflt_clz.o)
-    0x080011f6   0x080011f6   0x0000008c   Code   RO         1707    x$fpl$fnaninf       fz_ws.l(fnaninf.o)
-    0x08001282   0x08001282   0x0000000a   Code   RO         1709    x$fpl$fretinf       fz_ws.l(fretinf.o)
-    0x0800128c   0x0800128c   0x00000014   Code   RO         1668    x$fpl$frsb          fz_ws.l(faddsub_clz.o)
-    0x080012a0   0x080012a0   0x000000ea   Code   RO         1669    x$fpl$fsub          fz_ws.l(faddsub_clz.o)
-    0x0800138a   0x0800138a   0x00000000   Code   RO         1711    x$fpl$usenofp       fz_ws.l(usenofp.o)
-    0x0800138a   0x0800138a   0x00000002   PAD
-    0x0800138c   0x0800138c   0x00000020   Data   RO         1866    Region$$Table       anon$$obj.o
+    0x0800076c   0x0800076c   0x00000030   Code   RO          258    i.UART2_SendString  uart.o
+    0x0800079c   0x0800079c   0x00000054   Code   RO          261    i.USART1_IRQHandler  uart.o
+    0x080007f0   0x080007f0   0x00000050   Code   RO          262    i.USART2_IRQHandler  uart.o
+    0x08000840   0x08000840   0x00000054   Code   RO          263    i.USART3_IRQHandler  uart.o
+    0x08000894   0x08000894   0x0000001e   Code   RO         1370    i.USART_ClearITPendingBit  stm32f10x_usart.o
+    0x080008b2   0x080008b2   0x0000000a   Code   RO         1387    i.USART_ReceiveData  stm32f10x_usart.o
+    0x080008bc   0x080008bc   0x0000001a   Code   RO          264    i.__NVIC_EnableIRQ  uart.o
+    0x080008d6   0x080008d6   0x00000002   PAD
+    0x080008d8   0x080008d8   0x000001b0   Code   RO          171    i.comm_create_command  device_command.o
+    0x08000a88   0x08000a88   0x000000d0   Code   RO          173    i.conver_floatTostr  device_command.o
+    0x08000b58   0x08000b58   0x00000068   Code   RO          175    i.conver_unsigned_intTostr  device_command.o
+    0x08000bc0   0x08000bc0   0x0000001e   Code   RO            5    i.delay             main_1.o
+    0x08000bde   0x08000bde   0x00000002   PAD
+    0x08000be0   0x08000be0   0x00000054   Code   RO            6    i.main              main_1.o
+    0x08000c34   0x08000c34   0x0000001e   Code   RO          109    i.ringbuffer_full   ringbuffer.o
+    0x08000c52   0x08000c52   0x00000012   Code   RO          113    i.ringbuffer_increase_head  ringbuffer.o
+    0x08000c64   0x08000c64   0x00000012   Code   RO          114    i.ringbuffer_increase_tail  ringbuffer.o
+    0x08000c76   0x08000c76   0x00000018   Code   RO          115    i.ringbuffer_init   ringbuffer.o
+    0x08000c8e   0x08000c8e   0x00000026   Code   RO          117    i.ringbuffer_push   ringbuffer.o
+    0x08000cb4   0x08000cb4   0x0000001e   Code   RO          177    i.string_cat        device_command.o
+    0x08000cd2   0x08000cd2   0x0000002a   Code   RO          179    i.string_copy       device_command.o
+    0x08000cfc   0x08000cfc   0x00000038   Code   RO          180    i.string_crc        device_command.o
+    0x08000d34   0x08000d34   0x00000012   Code   RO          181    i.string_length     device_command.o
+    0x08000d46   0x08000d46   0x00000002   PAD
+    0x08000d48   0x08000d48   0x00000062   Code   RO         1647    x$fpl$d2f           fz_ws.l(d2f.o)
+    0x08000daa   0x08000daa   0x00000018   Code   RO         1701    x$fpl$dcmpinf       fz_ws.l(dcmpi.o)
+    0x08000dc2   0x08000dc2   0x00000002   PAD
+    0x08000dc4   0x08000dc4   0x00000078   Code   RO         1661    x$fpl$dleqf         fz_ws.l(dleqf.o)
+    0x08000e3c   0x08000e3c   0x00000154   Code   RO         1663    x$fpl$dmul          fz_ws.l(dmul.o)
+    0x08000f90   0x08000f90   0x0000009c   Code   RO         1703    x$fpl$dnaninf       fz_ws.l(dnaninf.o)
+    0x0800102c   0x0800102c   0x0000000c   Code   RO         1705    x$fpl$dretinf       fz_ws.l(dretinf.o)
+    0x08001038   0x08001038   0x00000056   Code   RO         1665    x$fpl$f2d           fz_ws.l(f2d.o)
+    0x0800108e   0x0800108e   0x00000002   PAD
+    0x08001090   0x08001090   0x000000c4   Code   RO         1667    x$fpl$fadd          fz_ws.l(faddsub_clz.o)
+    0x08001154   0x08001154   0x00000036   Code   RO         1677    x$fpl$ffix          fz_ws.l(ffix.o)
+    0x0800118a   0x0800118a   0x00000002   PAD
+    0x0800118c   0x0800118c   0x0000003e   Code   RO         1681    x$fpl$ffixu         fz_ws.l(ffixu.o)
+    0x080011ca   0x080011ca   0x00000002   PAD
+    0x080011cc   0x080011cc   0x00000026   Code   RO         1685    x$fpl$ffltu         fz_ws.l(fflt_clz.o)
+    0x080011f2   0x080011f2   0x0000008c   Code   RO         1707    x$fpl$fnaninf       fz_ws.l(fnaninf.o)
+    0x0800127e   0x0800127e   0x0000000a   Code   RO         1709    x$fpl$fretinf       fz_ws.l(fretinf.o)
+    0x08001288   0x08001288   0x00000014   Code   RO         1668    x$fpl$frsb          fz_ws.l(faddsub_clz.o)
+    0x0800129c   0x0800129c   0x000000ea   Code   RO         1669    x$fpl$fsub          fz_ws.l(faddsub_clz.o)
+    0x08001386   0x08001386   0x00000000   Code   RO         1711    x$fpl$usenofp       fz_ws.l(usenofp.o)
+    0x08001386   0x08001386   0x00000002   PAD
+    0x08001388   0x08001388   0x00000020   Data   RO         1866    Region$$Table       anon$$obj.o
 
 
-    Execution Region ER_RW (Exec base: 0x20000000, Load base: 0x080013ac, Size: 0x00000024, Max: 0xffffffff, ABSOLUTE)
+    Execution Region ER_RW (Exec base: 0x20000000, Load base: 0x080013a8, Size: 0x00000024, Max: 0xffffffff, ABSOLUTE)
 
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
-    0x20000000   0x080013ac   0x00000010   Data   RW          267    .data               uart.o
-    0x20000010   0x080013bc   0x00000014   Data   RW         1572    .data               system_stm32f10x.o
+    0x20000000   0x080013a8   0x00000010   Data   RW          267    .data               uart.o
+    0x20000010   0x080013b8   0x00000014   Data   RW         1572    .data               system_stm32f10x.o
 
 
-    Execution Region ER_ZI (Exec base: 0x20000024, Load base: 0x080013d0, Size: 0x000007ec, Max: 0xffffffff, ABSOLUTE)
+    Execution Region ER_ZI (Exec base: 0x20000024, Load base: 0x080013cc, Size: 0x000007ec, Max: 0xffffffff, ABSOLUTE)
 
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
@@ -1196,19 +1196,19 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
 
-       156         22          0          0          0        962   define.o
-       890         44          0          0         40       4718   device_command.o
-       122         12          0          0        280     225824   main_1.o
-       128          0          0          0          0       2812   ringbuffer.o
-        64         26        236          0       1536        804   startup_stm32f10x_md.o
+       156         22          0          0          0        970   define.o
+       890         44          0          0         40       4774   device_command.o
+       114         10          0          0        280     225856   main_1.o
+       128          0          0          0          0       2836   ringbuffer.o
+        64         26        236          0       1536        812   startup_stm32f10x_md.o
        430          6          0          0          0       3982   stm32f10x_gpio.o
         32          6          0          0          0        585   stm32f10x_rcc.o
         40          0          0          0          0       2694   stm32f10x_usart.o
-       328         28          0         20          0       2189   system_stm32f10x.o
-       690        116          0         16         76      32095   uart.o
+       328         28          0         20          0       2229   system_stm32f10x.o
+       694        116          0         16         76      32167   uart.o
 
     ----------------------------------------------------------------------
-      2888        260        268         36       1932     276665   Object Totals
+      2884        258        268         36       1932     276905   Object Totals
          0          0         32          0          0          0   (incl. Generated)
          8          0          0          0          0          0   (incl. Padding)
 
@@ -1272,15 +1272,15 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-      4768        324        268         36       2028     275817   Grand Totals
-      4768        324        268         36       2028     275817   ELF Image Totals
-      4768        324        268         36          0          0   ROM Totals
+      4764        322        268         36       2028     276057   Grand Totals
+      4764        322        268         36       2028     276057   ELF Image Totals
+      4764        322        268         36          0          0   ROM Totals
 
 ==============================================================================
 
-    Total RO  Size (Code + RO Data)                 5036 (   4.92kB)
+    Total RO  Size (Code + RO Data)                 5032 (   4.91kB)
     Total RW  Size (RW Data + ZI Data)              2064 (   2.02kB)
-    Total ROM Size (Code + RO Data + RW Data)       5072 (   4.95kB)
+    Total ROM Size (Code + RO Data + RW Data)       5068 (   4.95kB)
 
 ==============================================================================
 

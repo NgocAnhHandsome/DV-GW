@@ -33,7 +33,6 @@ int main()
 	while(1)
 	{
 		UART2_SendString(test.datastr);
-		UART2_SendString("\n");
 		delay(1000);
  	}
 } 
