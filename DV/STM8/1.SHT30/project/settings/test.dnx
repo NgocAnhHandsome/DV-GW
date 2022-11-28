@@ -45,7 +45,7 @@
         <ShowSource>1</ShowSource>
     </Trace1>
     <DebugChecksum>
-        <Checksum>2125930200</Checksum>
+        <Checksum>394594622</Checksum>
     </DebugChecksum>
     <CallStack>
         <ShowArgs>0</ShowArgs>
@@ -63,6 +63,10 @@
         <GraphEnabled>0</GraphEnabled>
         <ShowTimeLog>1</ShowTimeLog>
     </DataSample>
+    <Breakpoints>
+        <Bp0>_ "STD_CODE" "{$PROJ_DIR$\..\user\device_command.c}.0.1" 0 0 0 0 "" 0 ""</Bp0>
+        <Count>1</Count>
+    </Breakpoints>
     <TermIOLog>
         <LoggingEnabled>_ 0</LoggingEnabled>
         <LogFile>_ ""</LogFile>
@@ -72,10 +76,6 @@
         <LogFile>_ ""</LogFile>
         <Category>_ 0</Category>
     </LogFile>
-    <Breakpoints>
-        <Bp0>_ "STD_CODE" "{$PROJ_DIR$\..\user\device_command.c}.403.1" 0 0 0 0 "" 0 ""</Bp0>
-        <Count>1</Count>
-    </Breakpoints>
     <Aliases>
         <A0>_ "E:\1.MCU\1.STM8\3.project_STM8S103F3P6\0.Test\library\stm8s_it.c" ""</A0>
         <A1>_ "E:\1.STM8\3.project_STM8S103F3P6\0.Test\user\uart.c" ""</A1>

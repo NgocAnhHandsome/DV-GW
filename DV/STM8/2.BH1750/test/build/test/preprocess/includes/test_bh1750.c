@@ -1,4 +1,0 @@
----
-- "/var/lib/gems/2.7.0/gems/ceedling-0.31.1/vendor/unity/src/unity.h"
-- build/test/mocks/mock_i2c.h
-- src/user/bh1750.h

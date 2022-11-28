@@ -1,7 +1,7 @@
 /**
   ********************************************************************************
   * @file    time.h
-  * @author  Nguyen Quang Bien
+  * @author  Luu Ngoc Anh
   * @version 
   * @date    
   * @brief   
@@ -12,9 +12,10 @@
 
 /* Includes ------------------------------------------------------------------*/
 #include "stm8s.h"
-#define PERIOD 
-#define 
+#include "uart.h"
 
 void TIME4_Init(void);
+uint8_t Check_time_out(void);
+void TIM4_Out_set_value(int __vrTime_out_ms);
 
 #endif /* __STM8S_UART1_H */

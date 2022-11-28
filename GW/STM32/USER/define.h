@@ -16,10 +16,10 @@
 #include "stm32f10x.h"                  // Device header
 #include "uart.h" 
 #include "device_command.h"
+#include "time_out.h"
 	 
-	 
-#define SET_GPIO_ON  1
-#define SET_GPIO_OFF 0
+//#define SET_GPIO_ON  1
+//#define SET_GPIO_OFF 0
 
 #define SET_GPIO_PORTB_1   		GPIO_Pin_12
 #define SET_GPIO_PORTB_2   		GPIO_Pin_13
@@ -40,9 +40,24 @@
 #define GET_GPIO_PORTB_6 			GPIO_Pin_2
 #define GET_GPIO_PORTB_ALL    GET_GPIO_PORTB_1|GET_GPIO_PORTB_2|GET_GPIO_PORTB_3|GET_GPIO_PORTB_4|GET_GPIO_PORTB_5|GET_GPIO_PORTB_6
 
+
+typedef enum
+{
+	busy,
+	free
+}status_transmission_t;
+
+
 void SET_GPIO_PORT_Init(void);
 void GET_GPIO_PORT_Init(void);
-void Show_detect(_comm_data_struct_detect_t detect_test);
+status_transmission_t Check_busy(void);
+
+void SET_GPIO_ON(int port);
+void SET_GPIO_OFF(int port);
+
+void GW_COMM_AskType(int port);
+void Scan_Port(void);
+//void Show_detect(_comm_data_struct_detect_t detect_test);
 
 #ifdef __cplusplus
 }

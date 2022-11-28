@@ -1654,6 +1654,9 @@
             <name>$PROJ_DIR$\..\user\sys.h</name>
         </file>
         <file>
+            <name>$PROJ_DIR$\..\user\time.h</name>
+        </file>
+        <file>
             <name>$PROJ_DIR$\..\user\uart.h</name>
         </file>
     </group>
@@ -1700,6 +1703,9 @@
         </file>
         <file>
             <name>$PROJ_DIR$\..\user\sys.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\user\time.c</name>
         </file>
         <file>
             <name>$PROJ_DIR$\..\user\uart.c</name>

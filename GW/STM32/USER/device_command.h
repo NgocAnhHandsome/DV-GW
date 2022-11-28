@@ -26,7 +26,7 @@ typedef enum
     COMM_Port6,
     COMM_Port7,
     COMM_Port8,           
-    COMM_PortEnd
+    COMM_PortEnd,
 }_comm_port_number_e;
 
 typedef enum 

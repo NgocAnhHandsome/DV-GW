@@ -20,3 +20,4 @@
 .\objects\define.o: ..\USER\ringbuffer.h
 .\objects\define.o: D:\Keil C\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\define.o: ..\USER\device_command.h
+.\objects\define.o: ..\USER\time_out.h

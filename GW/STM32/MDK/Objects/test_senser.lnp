@@ -4,6 +4,7 @@
 ".\objects\device_command.o"
 ".\objects\uart.o"
 ".\objects\define.o"
+".\objects\time_out.o"
 ".\objects\misc.o"
 ".\objects\stm32f10x_gpio.o"
 ".\objects\stm32f10x_rcc.o"

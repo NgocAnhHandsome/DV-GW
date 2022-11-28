@@ -1,5 +1,0 @@
----
-build/test/mocks/mock_i2c.c:
-- TEST
-src/user/bh1750.c:
-- TEST

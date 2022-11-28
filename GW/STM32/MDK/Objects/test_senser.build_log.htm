@@ -22,7 +22,7 @@ Dialog DLL:      TCM.DLL V1.36.2.0
  
 <h2>Project:</h2>
 E:\Embedded system\GW-DV\DV-GW\GW\STM32\MDK\test_senser.uvprojx
-Project File Date:  11/09/2022
+Project File Date:  11/23/2022
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\Keil C\ARM\ARMCC\Bin'
@@ -61,38 +61,46 @@ compiling device_command.c...
 ..\USER\device_command.c(351): warning:  #1-D: last line of file ends without a newline
   }
 ..\USER\device_command.c: 11 warnings, 0 errors
+compiling misc.c...
+compiling time_out.c...
+..\USER\ringbuffer.h(43): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\time_out.h(34): warning:  #1-D: last line of file ends without a newline
+  /******************************************************************************/
+..\USER\time_out.c: 2 warnings, 0 errors
 compiling main.c...
 ..\USER\ringbuffer.h(43): warning:  #1-D: last line of file ends without a newline
   #endif
 ..\USER\device_command.h(90): warning:  #1-D: last line of file ends without a newline
   #endif
-..\USER\define.h(54): warning:  #1-D: last line of file ends without a newline
+..\USER\time_out.h(34): warning:  #1-D: last line of file ends without a newline
   /******************************************************************************/
-..\USER\main.c: 3 warnings, 0 errors
-compiling uart.c...
-..\USER\ringbuffer.h(43): warning:  #1-D: last line of file ends without a newline
-  #endif
-..\USER\uart.c: 1 warning, 0 errors
-compiling misc.c...
+..\USER\define.h(69): warning:  #1-D: last line of file ends without a newline
+  /******************************************************************************/
+..\USER\main.c: 4 warnings, 0 errors
 compiling define.c...
 ..\USER\ringbuffer.h(43): warning:  #1-D: last line of file ends without a newline
   #endif
 ..\USER\device_command.h(90): warning:  #1-D: last line of file ends without a newline
   #endif
-..\USER\define.h(54): warning:  #1-D: last line of file ends without a newline
+..\USER\time_out.h(34): warning:  #1-D: last line of file ends without a newline
   /******************************************************************************/
-..\USER\define.c(52): warning:  #111-D: statement is unreachable
-  	switch(detect_test.port_number)
+..\USER\define.h(69): warning:  #1-D: last line of file ends without a newline
+  /******************************************************************************/
 ..\USER\define.c: 4 warnings, 0 errors
+compiling uart.c...
+..\USER\ringbuffer.h(43): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\uart.c: 1 warning, 0 errors
 compiling stm32f10x_gpio.c...
 assembling startup_stm32f10x_md.s...
 compiling stm32f10x_rcc.c...
+compiling stm32f10x_usart.c...
 compiling stm32f10x_tim.c...
 compiling system_stm32f10x.c...
-compiling stm32f10x_usart.c...
 linking...
-Program Size: Code=4764 RO-data=268 RW-data=36 ZI-data=2028  
-".\Objects\test_senser.axf" - 0 Error(s), 23 Warning(s).
+Program Size: Code=8876 RO-data=268 RW-data=68 ZI-data=1852  
+".\Objects\test_senser.axf" - 0 Error(s), 26 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -125,17 +133,17 @@ Package Vendor: Keil
    * Component: ARM::CMSIS:CORE:5.2.0
 
    * Component: Keil::Device:Startup:1.0.0
-      Source file:   Device\Source\ARM\startup_stm32f10x_md.s
-      Source file:   Device\Source\system_stm32f10x.c
       Source file:   Device\Source\ARM\STM32F1xx_OPT.s
       Include file:  RTE_Driver\Config\RTE_Device.h
+      Source file:   Device\Source\system_stm32f10x.c
+      Source file:   Device\Source\ARM\startup_stm32f10x_md.s
 
    * Component: Keil::Device:StdPeriph Drivers:Framework:3.6.0
-      Source file:   Device\StdPeriph_Driver\src\misc.c
       Source file:   Device\StdPeriph_Driver\templates\stm32f10x_conf.h
+      Include file:  Device\StdPeriph_Driver\inc\misc.h
+      Source file:   Device\StdPeriph_Driver\src\misc.c
       Source file:   Device\StdPeriph_Driver\templates\stm32f10x_it.c
       Include file:  Device\StdPeriph_Driver\templates\stm32f10x_it.h
-      Include file:  Device\StdPeriph_Driver\inc\misc.h
 
    * Component: Keil::Device:StdPeriph Drivers:GPIO:3.6.0
       Include file:  Device\StdPeriph_Driver\inc\stm32f10x_gpio.h
@@ -150,9 +158,9 @@ Package Vendor: Keil
       Include file:  Device\StdPeriph_Driver\inc\stm32f10x_tim.h
 
    * Component: Keil::Device:StdPeriph Drivers:USART:3.6.0
-      Include file:  Device\StdPeriph_Driver\inc\stm32f10x_usart.h
       Source file:   Device\StdPeriph_Driver\src\stm32f10x_usart.c
-Build Time Elapsed:  00:00:02
+      Include file:  Device\StdPeriph_Driver\inc\stm32f10x_usart.h
+Build Time Elapsed:  00:00:03
 </pre>
 </body>
 </html>

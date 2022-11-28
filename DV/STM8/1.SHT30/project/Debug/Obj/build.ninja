@@ -28,11 +28,13 @@ build main.pbi : index main.xcl
 build ringbuffer.pbi : index ringbuffer.xcl
 build sht30.pbi : index sht30.xcl
 build sys.pbi : index sys.xcl
+build time.pbi : index time.xcl
 build uart.pbi : index uart.xcl
 build test_part0.pbi : link stm8s_it.pbi device_command.pbi GPIO.pbi
 build test_part1.pbi : link i2c.pbi main.pbi ringbuffer.pbi
-build test_part2.pbi : link sht30.pbi sys.pbi uart.pbi
-build test.pbd : link test_part0.pbi test_part1.pbi test_part2.pbi
+build test_part2.pbi : link sht30.pbi sys.pbi time.pbi
+build test_part3.pbi : link uart.pbi
+build test.pbd : link test_part0.pbi test_part1.pbi test_part2.pbi test_part3.pbi
 build test.pbw : browsedata test.pbd
 
 

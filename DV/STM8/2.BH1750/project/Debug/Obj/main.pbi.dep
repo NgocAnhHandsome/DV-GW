@@ -1,6 +1,0 @@
-main.pbi: \
-  H:\2.project\2022\thang\ 8\1.ThietBi_GS\1.Sensor\2.BH1750\user\main.c \
-  H:\2.project\2022\thang\ 8\1.ThietBi_GS\1.Sensor\2.BH1750\project\..\library\stm8s.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\intrinsics.h \
-  H:\2.project\2022\thang\ 8\1.ThietBi_GS\1.Sensor\2.BH1750\user/uart.h \
-  H:\2.project\2022\thang\ 8\1.ThietBi_GS\1.Sensor\2.BH1750\user/bh1750.h

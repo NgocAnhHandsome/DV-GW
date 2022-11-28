@@ -81,6 +81,7 @@ void UART_Send_String(char *_varString)
         UART_Send_Char(*_varString);
         _varString++;
     }
+    UART_Send_Char('\0');
    GPIO_WriteLow(GPIOD,GPIO_PIN_4);
 }
 void UART_Send_Number(int _varNumber)
@@ -114,6 +115,7 @@ int  UART_Flag(void)
 }
 INTERRUPT_HANDLER(UART1_RX_IRQHandler, 18)
  {
+     RX_FLAG_END_LINE = 1;
      temp_char = UART1->DR;
      ringbuffer_push(&ringbuffer_Test, temp_char);
      /*
