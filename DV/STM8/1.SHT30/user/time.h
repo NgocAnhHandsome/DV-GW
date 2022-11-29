@@ -14,7 +14,7 @@
 #include "stm8s.h"
 #include "uart.h"
 
-#define TIME_OUT 500
+#define TIME_OUT 100
     
 void TIME4_Init(void);
 uint8_t Check_time_out(void);

@@ -19,7 +19,7 @@ void TIME4_Init(void)
  {
    if(UART_Flag())
    {
-    Time_out = 500;
+    Time_out = TIME_OUT;
    }
    Time_out--;
    if(Time_out <= 0)

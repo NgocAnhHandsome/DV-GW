@@ -18,7 +18,7 @@
 
 #define PERIOD 1000
 #define PRESCALER 72
-#define TIME_OUT  500
+#define TIME_OUT  100
 
 void TIM2_Out_init(void);
 void TIM2_Out_set_value(int __vrTime_out_ms);

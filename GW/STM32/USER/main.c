@@ -6,11 +6,9 @@ void Config(void);
 int main()
 {
 	Config();
-	UART1_SendString("Chao Ngoc Anh!\n");
 	while(1)
 	{
 		Scan_Port();
-		delay(500);
  	}
 } 
 

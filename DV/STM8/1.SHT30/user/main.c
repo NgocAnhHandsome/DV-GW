@@ -26,7 +26,6 @@ int main( void )
   
   TIM4_Out_set_value(TIME_OUT); // cho trang thai can bang
   while(!Check_time_out()){}  
-  
   Receive_Port();
   while (1)
   {
@@ -36,19 +35,13 @@ int main( void )
 
 void Receive_Port(void)
 {
-    while(!Check_time_out()){}  
-    if(ringbuffer_get_arr(&ringbuffer_Test, Temp_data) == Ringbuffer_get_arr_done)
-    {
-     comm_detect_command(Temp_data, &_decode_new);
-     _encode_new.type_msg = COMM_AnswerType;
-     _encode_new.port_number = _decode_new.port_number;
-     _encode_new.type_sensor = Sensor_1;
-     comm_create_command(&_encode_new);
-     UART_Send_String(_encode_new.datastr);
-    }
-    else
-    {
-      UART_Send_String("ringbuffer_get_arr false\n");
-    }
+  while(ringbuffer_get_arr(&ringbuffer_Test, Temp_data) != Ringbuffer_get_arr_done){}  // cho detext
+  // cho ringbuffer_get_arr = Ringbuffer_get_arr_done
+   comm_detect_command(Temp_data, &_decode_new);
+   _encode_new.type_msg = COMM_AnswerType;
+   _encode_new.port_number = _decode_new.port_number;
+   _encode_new.type_sensor = Sensor_1;
+   comm_create_command(&_encode_new);
+   UART_Send_String(_encode_new.datastr);
 }
 
