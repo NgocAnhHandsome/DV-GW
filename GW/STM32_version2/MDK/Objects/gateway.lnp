@@ -1,0 +1,20 @@
+--cpu Cortex-M3
+".\objects\delay_1.o"
+".\objects\device_command_1.o"
+".\objects\main_1.o"
+".\objects\ringbuffer_1.o"
+".\objects\sys_1.o"
+".\objects\uart_1.o"
+".\objects\gpio.o"
+".\objects\time_out.o"
+".\objects\misc.o"
+".\objects\stm32f10x_gpio.o"
+".\objects\stm32f10x_rcc.o"
+".\objects\stm32f10x_tim.o"
+".\objects\stm32f10x_usart.o"
+".\objects\startup_stm32f10x_md.o"
+".\objects\system_stm32f10x.o"
+--strict --scatter ".\Objects\gateway.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\gateway.map" -o .\Objects\gateway.axf

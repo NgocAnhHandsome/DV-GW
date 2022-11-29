@@ -18,8 +18,7 @@
 #include "device_command.h"
 #include "time_out.h"
 	 
-//#define SET_GPIO_ON  1
-//#define SET_GPIO_OFF 0
+
 
 #define SET_GPIO_PORTB_1   		GPIO_Pin_12
 #define SET_GPIO_PORTB_2   		GPIO_Pin_13
@@ -39,6 +38,7 @@
 #define GET_GPIO_PORTB_5 			GPIO_Pin_1
 #define GET_GPIO_PORTB_6 			GPIO_Pin_2
 #define GET_GPIO_PORTB_ALL    GET_GPIO_PORTB_1|GET_GPIO_PORTB_2|GET_GPIO_PORTB_3|GET_GPIO_PORTB_4|GET_GPIO_PORTB_5|GET_GPIO_PORTB_6
+
 
 
 typedef enum

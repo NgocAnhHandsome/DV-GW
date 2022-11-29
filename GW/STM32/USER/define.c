@@ -80,13 +80,6 @@ void GW_COMM_AskType(int port)
 			SET_GPIO_OFF(port);
 			printf("COM_%d ket noi false!\n", port + 1);
 		}
-//		}
-//		else
-//		{
-//			printf("ringbuffer_get_arr false\n");
-//			Arr_port[port] = GET_GPIO_DISCONNECTED;
-////			SET_GPIO_OFF(port);
-//		}
 }
 
 void SET_GPIO_ON(int port)
