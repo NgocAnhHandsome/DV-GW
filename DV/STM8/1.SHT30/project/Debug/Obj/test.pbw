@@ -24828,230 +24828,6 @@
     "scope": null
   },
   {
-    "ID": "c:i2c.h@375@macro@__I2C_H",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__I2C_H",
-    "location": {
-      "column": "9",
-      "line": "11",
-      "path": "E:\\Embedded system\\GW-DV\\DV-GW\\DV\\STM8\\1.SHT30\\user\\i2c.h"
-    },
-    "name": "__I2C_H",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@I2C_Init",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void I2C_Init(uint32_t)",
-    "location": {
-      "column": "6",
-      "line": "15",
-      "path": "E:\\Embedded system\\GW-DV\\DV-GW\\DV\\STM8\\1.SHT30\\user\\i2c.h"
-    },
-    "name": "I2C_Init",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@I2C_Init",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void I2C_Init(uint32_t)",
-    "location": {
-      "column": "6",
-      "line": "15",
-      "path": "E:\\Embedded system\\GW-DV\\DV-GW\\DV\\STM8\\1.SHT30\\user\\i2c.h"
-    },
-    "name": "I2C_Init",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@I2C_Start",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void I2C_Start(void)",
-    "location": {
-      "column": "6",
-      "line": "17",
-      "path": "E:\\Embedded system\\GW-DV\\DV-GW\\DV\\STM8\\1.SHT30\\user\\i2c.h"
-    },
-    "name": "I2C_Start",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@I2C_Start",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void I2C_Start(void)",
-    "location": {
-      "column": "6",
-      "line": "17",
-      "path": "E:\\Embedded system\\GW-DV\\DV-GW\\DV\\STM8\\1.SHT30\\user\\i2c.h"
-    },
-    "name": "I2C_Start",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@I2C_Stop",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void I2C_Stop(void)",
-    "location": {
-      "column": "6",
-      "line": "18",
-      "path": "E:\\Embedded system\\GW-DV\\DV-GW\\DV\\STM8\\1.SHT30\\user\\i2c.h"
-    },
-    "name": "I2C_Stop",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@I2C_Stop",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void I2C_Stop(void)",
-    "location": {
-      "column": "6",
-      "line": "18",
-      "path": "E:\\Embedded system\\GW-DV\\DV-GW\\DV\\STM8\\1.SHT30\\user\\i2c.h"
-    },
-    "name": "I2C_Stop",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@I2C_Write",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void I2C_Write(uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "19",
-      "path": "E:\\Embedded system\\GW-DV\\DV-GW\\DV\\STM8\\1.SHT30\\user\\i2c.h"
-    },
-    "name": "I2C_Write",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@I2C_Write",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void I2C_Write(uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "19",
-      "path": "E:\\Embedded system\\GW-DV\\DV-GW\\DV\\STM8\\1.SHT30\\user\\i2c.h"
-    },
-    "name": "I2C_Write",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@I2C_Write_add",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void I2C_Write_add(uint8_t, uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "20",
-      "path": "E:\\Embedded system\\GW-DV\\DV-GW\\DV\\STM8\\1.SHT30\\user\\i2c.h"
-    },
-    "name": "I2C_Write_add",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@I2C_Write_add",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void I2C_Write_add(uint8_t, uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "20",
-      "path": "E:\\Embedded system\\GW-DV\\DV-GW\\DV\\STM8\\1.SHT30\\user\\i2c.h"
-    },
-    "name": "I2C_Write_add",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@I2C_Read_NAK",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "uint8_t I2C_Read_NAK(void)",
-    "location": {
-      "column": "9",
-      "line": "21",
-      "path": "E:\\Embedded system\\GW-DV\\DV-GW\\DV\\STM8\\1.SHT30\\user\\i2c.h"
-    },
-    "name": "I2C_Read_NAK",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@I2C_Read_NAK",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "uint8_t I2C_Read_NAK(void)",
-    "location": {
-      "column": "9",
-      "line": "21",
-      "path": "E:\\Embedded system\\GW-DV\\DV-GW\\DV\\STM8\\1.SHT30\\user\\i2c.h"
-    },
-    "name": "I2C_Read_NAK",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@I2C_Read_ACK",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "uint8_t I2C_Read_ACK(void)",
-    "location": {
-      "column": "9",
-      "line": "22",
-      "path": "E:\\Embedded system\\GW-DV\\DV-GW\\DV\\STM8\\1.SHT30\\user\\i2c.h"
-    },
-    "name": "I2C_Read_ACK",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@I2C_Read_ACK",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "uint8_t I2C_Read_ACK(void)",
-    "location": {
-      "column": "9",
-      "line": "22",
-      "path": "E:\\Embedded system\\GW-DV\\DV-GW\\DV\\STM8\\1.SHT30\\user\\i2c.h"
-    },
-    "name": "I2C_Read_ACK",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@I2C_Read_arr",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "uint16_t I2C_Read_arr(void)",
-    "location": {
-      "column": "10",
-      "line": "23",
-      "path": "E:\\Embedded system\\GW-DV\\DV-GW\\DV\\STM8\\1.SHT30\\user\\i2c.h"
-    },
-    "name": "I2C_Read_arr",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
     "ID": "c:ringbuffer.h@36@macro@__RINGBUFFER_H__",
     "What": "MacroDef",
     "defdec": "Def",
@@ -25434,6 +25210,342 @@
     "scope": null
   },
   {
+    "ID": "c:i2c.h@375@macro@__I2C_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__I2C_H",
+    "location": {
+      "column": "9",
+      "line": "11",
+      "path": "E:\\Embedded system\\GW-DV\\DV-GW\\DV\\STM8\\1.SHT30\\user\\i2c.h"
+    },
+    "name": "__I2C_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@I2C_Init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void I2C_Init(uint32_t)",
+    "location": {
+      "column": "6",
+      "line": "15",
+      "path": "E:\\Embedded system\\GW-DV\\DV-GW\\DV\\STM8\\1.SHT30\\user\\i2c.h"
+    },
+    "name": "I2C_Init",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@I2C_Init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void I2C_Init(uint32_t)",
+    "location": {
+      "column": "6",
+      "line": "15",
+      "path": "E:\\Embedded system\\GW-DV\\DV-GW\\DV\\STM8\\1.SHT30\\user\\i2c.h"
+    },
+    "name": "I2C_Init",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@I2C_Start",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void I2C_Start(void)",
+    "location": {
+      "column": "6",
+      "line": "17",
+      "path": "E:\\Embedded system\\GW-DV\\DV-GW\\DV\\STM8\\1.SHT30\\user\\i2c.h"
+    },
+    "name": "I2C_Start",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@I2C_Start",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void I2C_Start(void)",
+    "location": {
+      "column": "6",
+      "line": "17",
+      "path": "E:\\Embedded system\\GW-DV\\DV-GW\\DV\\STM8\\1.SHT30\\user\\i2c.h"
+    },
+    "name": "I2C_Start",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@I2C_Stop",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void I2C_Stop(void)",
+    "location": {
+      "column": "6",
+      "line": "18",
+      "path": "E:\\Embedded system\\GW-DV\\DV-GW\\DV\\STM8\\1.SHT30\\user\\i2c.h"
+    },
+    "name": "I2C_Stop",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@I2C_Stop",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void I2C_Stop(void)",
+    "location": {
+      "column": "6",
+      "line": "18",
+      "path": "E:\\Embedded system\\GW-DV\\DV-GW\\DV\\STM8\\1.SHT30\\user\\i2c.h"
+    },
+    "name": "I2C_Stop",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@I2C_Write",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void I2C_Write(uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "19",
+      "path": "E:\\Embedded system\\GW-DV\\DV-GW\\DV\\STM8\\1.SHT30\\user\\i2c.h"
+    },
+    "name": "I2C_Write",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@I2C_Write",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void I2C_Write(uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "19",
+      "path": "E:\\Embedded system\\GW-DV\\DV-GW\\DV\\STM8\\1.SHT30\\user\\i2c.h"
+    },
+    "name": "I2C_Write",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@I2C_Write_add",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void I2C_Write_add(uint8_t, uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "20",
+      "path": "E:\\Embedded system\\GW-DV\\DV-GW\\DV\\STM8\\1.SHT30\\user\\i2c.h"
+    },
+    "name": "I2C_Write_add",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@I2C_Write_add",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void I2C_Write_add(uint8_t, uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "20",
+      "path": "E:\\Embedded system\\GW-DV\\DV-GW\\DV\\STM8\\1.SHT30\\user\\i2c.h"
+    },
+    "name": "I2C_Write_add",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@I2C_Read_NAK",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint8_t I2C_Read_NAK(void)",
+    "location": {
+      "column": "9",
+      "line": "21",
+      "path": "E:\\Embedded system\\GW-DV\\DV-GW\\DV\\STM8\\1.SHT30\\user\\i2c.h"
+    },
+    "name": "I2C_Read_NAK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@I2C_Read_NAK",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint8_t I2C_Read_NAK(void)",
+    "location": {
+      "column": "9",
+      "line": "21",
+      "path": "E:\\Embedded system\\GW-DV\\DV-GW\\DV\\STM8\\1.SHT30\\user\\i2c.h"
+    },
+    "name": "I2C_Read_NAK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@I2C_Read_ACK",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint8_t I2C_Read_ACK(void)",
+    "location": {
+      "column": "9",
+      "line": "22",
+      "path": "E:\\Embedded system\\GW-DV\\DV-GW\\DV\\STM8\\1.SHT30\\user\\i2c.h"
+    },
+    "name": "I2C_Read_ACK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@I2C_Read_ACK",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint8_t I2C_Read_ACK(void)",
+    "location": {
+      "column": "9",
+      "line": "22",
+      "path": "E:\\Embedded system\\GW-DV\\DV-GW\\DV\\STM8\\1.SHT30\\user\\i2c.h"
+    },
+    "name": "I2C_Read_ACK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@I2C_Read_arr",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint16_t I2C_Read_arr(void)",
+    "location": {
+      "column": "10",
+      "line": "23",
+      "path": "E:\\Embedded system\\GW-DV\\DV-GW\\DV\\STM8\\1.SHT30\\user\\i2c.h"
+    },
+    "name": "I2C_Read_arr",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:time.h@374@macro@__TIME_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__TIME_H",
+    "location": {
+      "column": "9",
+      "line": "11",
+      "path": "E:\\Embedded system\\GW-DV\\DV-GW\\DV\\STM8\\1.SHT30\\user\\time.h"
+    },
+    "name": "__TIME_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:time.h@517@macro@TIME_OUT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIME_OUT",
+    "location": {
+      "column": "9",
+      "line": "17",
+      "path": "E:\\Embedded system\\GW-DV\\DV-GW\\DV\\STM8\\1.SHT30\\user\\time.h"
+    },
+    "name": "TIME_OUT",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIME4_Init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TIME4_Init(void)",
+    "location": {
+      "column": "6",
+      "line": "19",
+      "path": "E:\\Embedded system\\GW-DV\\DV-GW\\DV\\STM8\\1.SHT30\\user\\time.h"
+    },
+    "name": "TIME4_Init",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIME4_Init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TIME4_Init(void)",
+    "location": {
+      "column": "6",
+      "line": "19",
+      "path": "E:\\Embedded system\\GW-DV\\DV-GW\\DV\\STM8\\1.SHT30\\user\\time.h"
+    },
+    "name": "TIME4_Init",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Check_time_out",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint8_t Check_time_out(void)",
+    "location": {
+      "column": "9",
+      "line": "20",
+      "path": "E:\\Embedded system\\GW-DV\\DV-GW\\DV\\STM8\\1.SHT30\\user\\time.h"
+    },
+    "name": "Check_time_out",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Check_time_out",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint8_t Check_time_out(void)",
+    "location": {
+      "column": "9",
+      "line": "20",
+      "path": "E:\\Embedded system\\GW-DV\\DV-GW\\DV\\STM8\\1.SHT30\\user\\time.h"
+    },
+    "name": "Check_time_out",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM4_Out_set_value",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TIM4_Out_set_value(int)",
+    "location": {
+      "column": "6",
+      "line": "21",
+      "path": "E:\\Embedded system\\GW-DV\\DV-GW\\DV\\STM8\\1.SHT30\\user\\time.h"
+    },
+    "name": "TIM4_Out_set_value",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM4_Out_set_value",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TIM4_Out_set_value(int)",
+    "location": {
+      "column": "6",
+      "line": "21",
+      "path": "E:\\Embedded system\\GW-DV\\DV-GW\\DV\\STM8\\1.SHT30\\user\\time.h"
+    },
+    "name": "TIM4_Out_set_value",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
     "ID": "c:@_encode_new",
     "What": "Variable",
     "defdec": "Dec",
@@ -25504,27 +25616,13 @@
     "scope": null
   },
   {
-    "ID": "c:@F@Show_detect",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void Show_detect(_comm_data_struct_detect_t)",
-    "location": {
-      "column": "6",
-      "line": "21",
-      "path": "E:\\Embedded system\\GW-DV\\DV-GW\\DV\\STM8\\1.SHT30\\user\\main.c"
-    },
-    "name": "Show_detect",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
     "ID": "c:@F@main",
     "What": "Function",
     "defdec": "Def",
     "display": "int main(void)",
     "location": {
       "column": "5",
-      "line": "23",
+      "line": "22",
       "path": "E:\\Embedded system\\GW-DV\\DV-GW\\DV\\STM8\\1.SHT30\\user\\main.c"
     },
     "name": "main",
@@ -25538,109 +25636,11 @@
     "display": "void Receive_Port(void)",
     "location": {
       "column": "6",
-      "line": "34",
+      "line": "37",
       "path": "E:\\Embedded system\\GW-DV\\DV-GW\\DV\\STM8\\1.SHT30\\user\\main.c"
     },
     "name": "Receive_Port",
     "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:time.h@374@macro@__TIME_H",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__TIME_H",
-    "location": {
-      "column": "9",
-      "line": "11",
-      "path": "E:\\Embedded system\\GW-DV\\DV-GW\\DV\\STM8\\1.SHT30\\user\\time.h"
-    },
-    "name": "__TIME_H",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@TIME4_Init",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void TIME4_Init(void)",
-    "location": {
-      "column": "6",
-      "line": "17",
-      "path": "E:\\Embedded system\\GW-DV\\DV-GW\\DV\\STM8\\1.SHT30\\user\\time.h"
-    },
-    "name": "TIME4_Init",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@TIME4_Init",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void TIME4_Init(void)",
-    "location": {
-      "column": "6",
-      "line": "17",
-      "path": "E:\\Embedded system\\GW-DV\\DV-GW\\DV\\STM8\\1.SHT30\\user\\time.h"
-    },
-    "name": "TIME4_Init",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@Check_time_out",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "uint8_t Check_time_out(void)",
-    "location": {
-      "column": "9",
-      "line": "18",
-      "path": "E:\\Embedded system\\GW-DV\\DV-GW\\DV\\STM8\\1.SHT30\\user\\time.h"
-    },
-    "name": "Check_time_out",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@Check_time_out",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "uint8_t Check_time_out(void)",
-    "location": {
-      "column": "9",
-      "line": "18",
-      "path": "E:\\Embedded system\\GW-DV\\DV-GW\\DV\\STM8\\1.SHT30\\user\\time.h"
-    },
-    "name": "Check_time_out",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@TIM4_Out_set_value",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void TIM4_Out_set_value(int)",
-    "location": {
-      "column": "6",
-      "line": "19",
-      "path": "E:\\Embedded system\\GW-DV\\DV-GW\\DV\\STM8\\1.SHT30\\user\\time.h"
-    },
-    "name": "TIM4_Out_set_value",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@TIM4_Out_set_value",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void TIM4_Out_set_value(int)",
-    "location": {
-      "column": "6",
-      "line": "19",
-      "path": "E:\\Embedded system\\GW-DV\\DV-GW\\DV\\STM8\\1.SHT30\\user\\time.h"
-    },
-    "name": "TIM4_Out_set_value",
-    "origin": "user_include",
     "scope": null
   },
   {

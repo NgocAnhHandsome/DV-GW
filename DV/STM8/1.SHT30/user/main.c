@@ -18,21 +18,25 @@ void delay(uint16_t i);
 
 void Receive_Port(void);
 
-void Show_detect(_comm_data_struct_detect_t detect_test);
 
 int main( void )
 {
-//  delay(10);
   UART_Init(9600);
   TIME4_Init();
+  
+  TIM4_Out_set_value(TIME_OUT); // cho trang thai can bang
+  while(!Check_time_out()){}  
+  
+  Receive_Port();
   while (1)
   {
-    Receive_Port();
+    
   }
 }
 
 void Receive_Port(void)
 {
+    while(!Check_time_out()){}  
     if(ringbuffer_get_arr(&ringbuffer_Test, Temp_data) == Ringbuffer_get_arr_done)
     {
      comm_detect_command(Temp_data, &_decode_new);
@@ -41,6 +45,10 @@ void Receive_Port(void)
      _encode_new.type_sensor = Sensor_1;
      comm_create_command(&_encode_new);
      UART_Send_String(_encode_new.datastr);
+    }
+    else
+    {
+      UART_Send_String("ringbuffer_get_arr false\n");
     }
 }
 

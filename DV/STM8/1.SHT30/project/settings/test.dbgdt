@@ -1155,7 +1155,7 @@
                     <item>data</item>
                     <item>a</item>
                     <item>arr</item>
-                    <item></item>
+                    <item />
                 </expressions>
                 <col-names>
                     <item>Expression</item>

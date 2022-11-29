@@ -14,6 +14,8 @@
 #include "stm8s.h"
 #include "uart.h"
 
+#define TIME_OUT 500
+    
 void TIME4_Init(void);
 uint8_t Check_time_out(void);
 void TIM4_Out_set_value(int __vrTime_out_ms);

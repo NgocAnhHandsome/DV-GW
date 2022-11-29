@@ -1,5 +1,5 @@
-sht30.pbi: E:\Embedded\ system\GW-DV\DV-GW\DV\STM8\1.SHT30\user\i2c.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\intrinsics.h \
+sht30.pbi: E:\Embedded\ system\GW-DV\DV-GW\DV\STM8\1.SHT30\user\sht30.c \
+  E:\Embedded\ system\GW-DV\DV-GW\DV\STM8\1.SHT30\user/sht30.h \
   E:\Embedded\ system\GW-DV\DV-GW\DV\STM8\1.SHT30\project\..\library\stm8s.h \
-  E:\Embedded\ system\GW-DV\DV-GW\DV\STM8\1.SHT30\user\sht30.h \
-  E:\Embedded\ system\GW-DV\DV-GW\DV\STM8\1.SHT30\user\sht30.c
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\intrinsics.h \
+  E:\Embedded\ system\GW-DV\DV-GW\DV\STM8\1.SHT30\user/i2c.h

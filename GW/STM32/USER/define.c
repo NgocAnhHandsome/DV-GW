@@ -59,9 +59,12 @@ void GW_COMM_AskType(int port)
 	
 		_encode_new.type_msg = COMM_AskType;
 		_encode_new.port_number = (_comm_port_number_e)port;
-	
 		comm_create_command(&_encode_new);
-		//////////////////////////
+		SET_GPIO_ON(port);
+	
+		TIM2_Out_set_value(TIME_OUT); //stm8 
+		while(!TIM2_Out_Flag()){}
+			
 		UART2_SendString(_encode_new.datastr);
 		while(!TIM2_Out_Flag()){} // cho time_out
 		if(ringbuffer_get_arr(&ringbuffer_Test,Temp_data) == Ringbuffer_get_arr_done)
@@ -72,12 +75,18 @@ void GW_COMM_AskType(int port)
 			Arr_port[port] = GET_GPIO_CONNECTED;
 			printf("COM_%d da ket noi!\n",port + 1);				
 			}
+			else
+			{
+				Arr_port[port] = GET_GPIO_DISCONNECTED;
+				SET_GPIO_OFF(port);
+				printf("COM_%d ket noi false!\n", port + 1);
+			}
 		}
 		else
 		{
+			printf("ringbuffer_get_arr false\n");
 			Arr_port[port] = GET_GPIO_DISCONNECTED;
-			SET_GPIO_OFF(port);
-			printf("COM_%d ket noi false!\n", port + 1);
+//			SET_GPIO_OFF(port);
 		}
 }
 
@@ -166,11 +175,7 @@ void Scan_Port(void)
 		{
 			if(Arr_port[i] == GET_GPIO_DISCONNECTED)
 			{
-				/// cap nguon DV
-				SET_GPIO_ON(i);
 				GW_COMM_AskType(i);	
-//				printf("Port %d: ket noi\n", i+1);
-//				Arr_port[i] = GET_GPIO_CONNECTED;
 			}
 			else
 			{

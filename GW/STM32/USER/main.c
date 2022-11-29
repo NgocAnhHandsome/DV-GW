@@ -9,7 +9,7 @@ int main()
 	UART1_SendString("Chao Ngoc Anh!\n");
 	while(1)
 	{
-			Scan_Port();
+		Scan_Port();
 		delay(500);
  	}
 } 
